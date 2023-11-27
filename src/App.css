@@ -1,0 +1,440 @@
+.App{
+  width: 100%;
+  height: 100%;
+}
+:root {
+  --primary-color: #5851D3;
+  --primary-color-down: #6760D6;
+  --secondary-color: #EEEEEE;
+  --secondary-color-down: #F5F5F5; 
+  --secondary-color-up: #DADCDB;
+  --background-color: #D9D9D9;
+}
+body{
+  background-color: var(--secondary-color-up);
+}
+.SearchBar{
+  /* width: 40.5rem;
+  height: 3rem;  */
+  text-align: center;
+  margin: 2rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+}
+
+input::placeholder {
+  /* Your styles here */
+  color: #999; /* Change the font size */
+  position: relative;
+  text-align: left;
+  padding-left: 30px;
+  /* You can use other CSS properties to further adjust the position and appearance of the placeholder text */
+}
+
+.SearchBarInput{
+  width: 40rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.SearchIcon{
+  margin: -3.43rem 0rem 0rem 34rem;
+}
+
+.SmallCard{
+  background-color: var(--secondary-color-down);
+  padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  height: 50px;
+  width: 20rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.SearchIconButton{
+  margin: 0rem 0rem 0rem 0rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.SearchIconImg{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.SearchBarDiv{
+  background-color: var(--primary-color);
+  padding: 5rem 5rem 5rem 5rem;
+}
+
+.recentsearches{
+  padding: 1rem 5rem 0rem 5rem;
+}
+.recentsearcheslist{
+  margin: -0.5rem 0rem 0rem 4rem;
+}
+
+/* HomePage */
+.HomePageDiv1{
+  background-color: var(--primary-color);
+  padding: 7rem 5rem 7rem 5rem;
+}
+.HeroImg1{
+  margin: 5rem 5rem 5rem 13rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara1{
+  height: 20rem;
+  width: 40rem;
+  margin: -25rem 5rem 5rem 50rem;
+}
+.HeroImg2{
+  margin: 5rem 5rem 5rem 60rem;
+  height: 20rem;
+  width: 20rem;
+}
+.HeroPara2{
+  margin: -25rem 5rem 5rem 3rem;
+  height: 20rem;
+  width: 40rem;
+}
+
+
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+.Logo img{
+  height: 45px;
+
+}
+
+.Header{
+  height: 70px;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+
+}
+
+.Second-part-nav-bar{
+  display: flex;
+}
+
+.Elements{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 60px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: large;
+}
+.Elements :hover{
+  cursor: pointer;
+}
+
+
+/* Sign in / up button  */
+.SearchButton{
+  height: 35px;
+  width: auto;
+  padding: 0rem 1rem 0rem 1rem;
+  background-color: #5851D3;
+  color: white;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: medium;
+  border:none;
+  cursor: pointer;
+
+
+
+
+}
+
+.SignButton{
+  height: 35px;
+  width: 90px;
+  color: #291fb5;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: medium;
+  border: 2px solid #291fb5;
+  padding-right: 10px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.btn{
+  display: flex;
+  gap: 18px;
+
+}
+.RatingCard{
+  background-color: #fff;
+  height: 2.5rem;
+  width: 8rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+.star {
+  display: inline-block;
+  color: #FFD700;
+
+}
+.empty-star{
+  display: inline-block;
+  color: #ccc; 
+}
+.LikeCardImg{
+  height: 2rem;
+  width: 2rem;
+  margin-left: 0.6rem;
+}
+.LikeCard{
+  background-color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.LikeCard:hover {
+  border: 2px solid #5851D3;
+}
+.ShareCard{
+  background-color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ShareCard:hover {
+  border: 2px solid #5851D3;
+}
+
+.ProductLandingImage{
+  margin: 1rem 1rem 1rem 1rem;
+  height: 20rem;  
+  width: 40rem;
+}
+.ProductLandingPageTitle{
+  background-color: #fff;
+  height: 5rem;
+  width: 35rem;
+  border-radius: 1rem;
+}
+.ProductLandingPageTitleHeading{
+  padding: 0.5rem 1rem 1rem 2rem;
+}
+.ProductLandingPageActions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.ProductLandingPagediv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ProductLandingPage{
+  background: var(--secondary-color);
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 0rem 0rem 0rem 0rem;
+  border-radius: 2rem;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductLandingPagediv2{
+  /* height: 12rem;
+  width: 90rem; */
+  margin: 0rem 5rem 0rem 5rem;
+}
+
+.div2Paragraph{
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.action-main{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductLandingPagediv3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0rem 0rem 2rem 0rem;
+  margin: 0rem 0rem 0rem 65rem;
+}
+/* UserPageCard */
+.UserPageCardImage{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.UserPageCard{
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13rem;
+  width: 44rem;
+  border-radius: 1rem;
+  padding: 0rem 0rem 0.5rem 0rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+.UserPageCardDiv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0rem 0rem 0rem;
+}
+.UserPageCardDiv2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+
+/* UserProfileAvatar Page css */
+
+.UserProfileAvatarImageDiv{
+  height: 14.2rem;
+  width: 16.4rem;
+  margin: 1rem 1rem 1rem 1rem; 
+}
+.UserProfileAvatarImage{
+  height: 13rem;
+  width: 15rem;
+  border-radius: 50%;
+  border: 3.4px solid var(--primary-color-down);
+}
+.UserProfileAvatar{
+  display: flex-column;
+  background-color: var(--background-color);
+  width: 17rem;
+  height: 18rem;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 0.1rem 1rem 1rem 0.5rem;
+}
+.UserProfileAvatarTitle{
+  margin: -1rem 0rem 0rem 3.7rem;
+}
+.UserProfileAvatarCard{
+  background-color: var(--background-color);
+  border-radius: 1rem;
+  height: 4rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.UserPage{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 5rem;
+}
+.UserAvatatSection{
+  background-color: var(--secondary-color);
+  padding: 0em 5rem 0rem 5rem;
+  margin: 0rem 0rem 0rem -15rem;
+  justify-content:flex-start;
+}
+.UserListSelectDiv{
+  background-color: var(--secondary-color);
+  width: 15rem;
+  border-radius: 1rem;
+}
+.UserListSelectDiv{
+  display: flex-column;
+  align-items: center;
+  margin: 4rem 0rem 0rem 0rem;
+}
+.UserListSelectDivButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 0rem 0rem 1rem;
+  gap: 0.5rem;
+}
+.UserListSelectDivTitle{
+  margin: 1rem 0rem 1rem 4rem;
+}
+.UserListSelectDivButtonsActivity1{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid var(--primary-color-down) !important;
+  background:none;
+  cursor:pointer;
+}
+
+.activity2{
+  background: none !important;
+  border:none;
+  margin: 0px 15px 8px 0px;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* Loader css---------------------------------------------------------- */
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.loader-image {
+  max-width: 100%;
+  max-height: 100%;
+}
